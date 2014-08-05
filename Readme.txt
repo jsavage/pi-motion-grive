@@ -103,7 +103,7 @@ cd /etc/init.d
 sudo cp skeleton pimotion.sh
 chmod +x pimotion.sh
 sudo nano pimotion.sh   # change appropriate entries to point to your pimotion.py script
-sudo update-rc.d /etc/init.d/pimotion.sh defaults
+sudo update-rc.d pimotion.sh defaults
 cd ~
 
 
